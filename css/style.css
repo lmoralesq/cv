@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriwather',serif;
+}
+
+p {
+    line-height: 2; /* Para el espaciado*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #142850;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h1 {
+  /*margin: 0 auto 0 auto;
+  width: 10%; */
+  font-size: 562.5%;   /* Calculo loco 100% = 16px 90px/16px = 562.5
+                                              16px = 100% = 1em */
+  font-family: 'Alegreya', serif;
+  font-style: cursive;
+  margin-top: 40px;
+  color: #00909e;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+  color: #00909e;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profile
+{
+  /* margin-top: 50px; */
+}
+
+.format {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.cloud-left
+{
+  position: absolute;
+  left: 300px;
+  buttom: 300px;
+}
+
+.cloud-rigth
+{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color:  #142850;
+  padding-top: 80px;
+  /*
+  background-color: #272343;
+  background-color: #F4F9F5;
+  border: solid 10px;
+  width: 200px;
+  height: 200px;
+  padding: 20px; */
+}
+.middle-container {
+  background-color: #FFFFFF;
+  margin: 50px 0;
+  /* width: 200px;
+  height: 200px;
+  background-color: red;
+  border: solid 20px;
+  margin-left: 260px; */
+}
+
+.buttom-container {
+  /* width: 200px;
+  height:  200px;
+  background-color: blue;
+  border: solid 10px; */
+  margin: auto;
+  background-color: #00909e;
+  padding: 50px 0 20px;
+}
+
+.top-image {
+    width: 25%;
+    float: left; /* pone la imagen flotante */
+    margin-right: 30px;
+}
+
+.buttom-image {
+    width: 15%;
+    float: right;
+    margin-left: 10px;
+}
+
+/* .code-skill-description {
+  clear: left; Esto sobreescribe el float
+}
+
+.chilli-skill-description {
+  clear: rigth;
+} */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.contact-msg {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.myButton {
+	background-color:#142850;
+	border-radius:42px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:19px 7px;
+	text-decoration:none;
+	text-shadow:1px 0px 4px #283966;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.copyrightinfo {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0;
+}
